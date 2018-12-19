@@ -59,6 +59,14 @@
 
 if ($text=="foto"||$text=="/foto"){
 
+
+
+$foto[0]"foto.png";
+$foto[1]"foto1.png";
+$foto[2]"foto2.png";
+$num=rand(0,2);
+
+
 sendFoto($chatId,"foto.png",false,"La mia foto",$api);
 }
 		//aggiungo il comando di invio
