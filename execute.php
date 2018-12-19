@@ -56,6 +56,11 @@
                   $text="Il meteo oggi è nevoso ";
  $parameters = array('chat_id' => $chatId, "text" => $text);
 		  }
+
+if ($text=="foto"){
+
+sendFoto($chatId,"foto.png",false,"La mia foto",$api);
+}
 		//aggiungo il comando di invio
 		//e lo invio
 		
