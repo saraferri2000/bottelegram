@@ -53,7 +53,7 @@
 		}
 		
                   if($text=="meteo"){
-                  $text="Il meteo oggi è nevoso ".text;
+                  $text="Il meteo oggi è nevoso ";
  $parameters = array('chat_id' => $chatId, "text" => $text);
 		  }
 		//aggiungo il comando di invio
