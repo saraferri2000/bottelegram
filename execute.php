@@ -75,7 +75,7 @@ $barz[1]="Qual'è il colmo per un tuffatore? fare un buco nell'acqua!";
 $barz[2]="qual'è il colmo per un centralinista? avere problemi di linea!";
 $barz[3]="Come si chiama il povero faraone morto in un incidente stradale? Sutankamion!";
 	
-$i=srand(0,3);
+$i=rand(0,3);
 
 $parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 
