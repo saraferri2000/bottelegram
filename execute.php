@@ -69,6 +69,19 @@ if ($text=="foto"||$text=="/foto"){
 
 	sendFoto($chatId,$foto[$num],false,"La mia foto",$api);
 }
+if($text=="barz"){
+$barz[0]="Un cavallo va dal benzinaio e chiede:il fieno per favore!";
+$barz[1]="Qual'è il colmo per un tuffatore? fare un buco nell'acqua!";
+$barz[2]="qual'è il colmo per un centralinista? avere problemi di linea!";
+$barz[3]="Come si chiama il povero faraone morto in un incidente stradale? Sutankamion!";
+	
+$i=srand(0,3);
+
+$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+
+}
+
+
 		//aggiungo il comando di invio
 		//e lo invio
 		
