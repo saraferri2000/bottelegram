@@ -69,7 +69,7 @@ if ($text=="foto"||$text=="/foto"){
 
 	sendFoto($chatId,$foto[$num],false,"La mia foto",$api);
 }
-if($text=="barz"){
+if($text=="barz"||$text=="/barz"){
 $barz[0]="Un cavallo va dal benzinaio e chiede:il fieno per favore!";
 $barz[1]="Qual'è il colmo per un tuffatore? fare un buco nell'acqua!";
 $barz[2]="qual'è il colmo per un centralinista? avere problemi di linea!";
