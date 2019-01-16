@@ -56,6 +56,11 @@
                   $text="Il meteo oggi è nevoso ";
  $parameters = array('chat_id' => $chatId, "text" => $text);
 		  }
+if($text=="ciao"||$text=="/ciao"){
+                  $text="Benvenuto nella scuola 8 marzo ";
+ $parameters = array('chat_id' => $chatId, "text" => $text);
+		  }
+
 
 if ($text=="foto"||$text=="/foto"){
 
