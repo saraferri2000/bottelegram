@@ -88,6 +88,10 @@ if($text=="albachiara"){
 sendAudio($chatId,"Albachiara.mp3",false,"Vasco Rossi",$api);
 }
 
+if($text=="doc"){
+sendDocument($chatId,"testo.pdf",false,"Il mio documento",$api);
+}
+
 
 		//aggiungo il comando di invio
 		//e lo invio
