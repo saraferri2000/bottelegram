@@ -80,15 +80,16 @@ $i=rand(0,3);
 $parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 
 }
-if($text=="audio"){
+if($text=="audio"||$text=="/audio"){
 sendAudio($chatId,"audio.mp3",false,"Il mio Audio",$api);
 
 }
-if($text=="albachiara"){
+
+if($text=="albachiara"||$text=="/albachiara"){
 sendAudio($chatId,"Albachiara.mp3",false,"Vasco Rossi",$api);
 }
 
-if($text=="doc"){
+if($text=="doc"||$text=="/doc"){
 sendDocument($chatId,"testo.pdf",false,"Il mio documento",$api);
 }
 
